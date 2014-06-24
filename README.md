@@ -1,5 +1,10 @@
 # Client tool for collecting statistics from multiple accounts #
 
+Download the binary of the tool from the Releases section or use the following example command:
+
+    $ wget https://github.com/cloudsigma/cloudsme_stats/releases/download/v0.1/cloudsigma_stats
+    $ chmod +x cloudsigma_stats
+
 Create a config file e.g. named `conf.json` with the following contents:
 
     {
@@ -44,3 +49,5 @@ If the `cloudsigma_stats` command is executed without parameters, it prints a te
 
 If any error occurs (invalid config file, wrong URL, wrong credentials, problem with connection), the command
 will exit with non-zero return code and will print an error trace on the standard output.
+
+Happy computing!

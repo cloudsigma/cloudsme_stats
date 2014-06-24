@@ -1,0 +1,2 @@
+cloudsigma==0.3
+pyinstaller==2.1

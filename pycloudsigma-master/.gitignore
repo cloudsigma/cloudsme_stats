@@ -1,5 +1,0 @@
-*.pyc
-*.swp
-build/
-dist/
-src/cloudsigma.egg-info

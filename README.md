@@ -51,3 +51,14 @@ If any error occurs (invalid config file, wrong URL, wrong credentials, problem 
 will exit with non-zero return code and will print an error trace on the standard output.
 
 Happy computing!
+
+## Building from source ##
+
+Assure you have `make` and `virtualenvwrapper` installed. Get the sources and call the make command:
+
+    $ make
+
+You'll find the binary in the dist subdirectory and you can call it from there:
+
+    $ ./dist/cloudsigma_stats conf.json
+
